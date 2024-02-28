@@ -41,8 +41,8 @@ int ledState = LOW;  // ledState used to set the LED
 unsigned long previousMillis = 0;  // will store last time LED was updated
 
 // constants won't change:
-//ändrade här för intervallen
-const long interval = 100;  // interval at which to blink (milliseconds)
+//ändrade här för intervallen kan vara 1000 100 eller 3000
+const long interval = 3000;  // interval at which to blink (milliseconds)
 
 void setup() {
   // set the digital pin as output:
